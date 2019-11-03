@@ -7,6 +7,8 @@ This repository includes "Run_analysis.R" script file which creates tidy dataset
  
 Above data contains results of experiments to describe human activity recognition of the smartphone
 
+"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+
 The experiments have been carried out with a group of 30 volunteers. 
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 wearing a smartphone on the waist. 
@@ -22,10 +24,10 @@ And the data recorded as below.
 ===============================================================================
 
 "Run_analysis.R" creates a tidy dataset named as "FinalData.txt" using "dplyr" packages.
+"CodeBook.md" a code book that describes the variables, 
 
 
-This is a second, independent data set with the average of each variable for each activity and each subject.
-
+FinalData.txt is a second, independent data set with the average of each variable for each activity and each subject.
 This has a format of a tibble: 180 x 88, and as follows
 
 
