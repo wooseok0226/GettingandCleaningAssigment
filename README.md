@@ -29,7 +29,7 @@ This is a second, independent data set with the average of each variable for eac
 This has a format of a tibble: 180 x 88, and as follows
 
 
-...
+[...
   subject activity TimeBodyAcceler… TimeBodyAcceler… TimeBodyAcceler… TimeGravityAcce…
      <int> <fct>               <dbl>            <dbl>            <dbl>            <dbl>
  1       1 LAYING              0.222         -0.0405           -0.113            -0.249
@@ -37,5 +37,5 @@ This has a format of a tibble: 180 x 88, and as follows
  3       1 STANDING            0.279         -0.0161           -0.111             0.943
  4       1 WALKING             0.277         -0.0174           -0.111             0.935
  5       1 WALKING…            0.289         -0.00992          -0.108             0.932
-...
+...]
 
